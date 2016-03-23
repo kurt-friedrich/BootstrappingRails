@@ -2,9 +2,17 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
+  get '/question' => 'welcome#question'
+
   get '/boat' => 'home#boat'
 
   get '/hole' => 'home#hole'
+
+  get '/targus' => 'name#targus'
+
+  get '/confirm' => 'name#confirm'
+
+  get '/:name' => 'welcome#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
