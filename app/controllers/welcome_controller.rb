@@ -4,4 +4,7 @@ class WelcomeController < ApplicationController
     @name = 'USER 7129'
   end
 
+  def question
+  end
+
 end
