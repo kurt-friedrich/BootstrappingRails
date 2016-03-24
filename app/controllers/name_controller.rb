@@ -1,7 +1,7 @@
 class NameController < ApplicationController
 
   def targus
-    @name = 'Targus Targus'
+    @name = 'Targus'
   end
 
   def confirm
